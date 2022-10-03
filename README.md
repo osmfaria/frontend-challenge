@@ -1,6 +1,6 @@
-# :heavy_dollar_sign: Desafio  Frontend Challenge
+# :heavy_dollar_sign: Frontend Challenge
 
-Desafio Frontend, um web app para cálculo de antecipação de uma transação. Possibilita com que o usuário manipule dados de entrada para tomada de decisão baseado nos resultados providos pela aplicação.
+Desafio Frontend, um web app para cálculo de antecipação de uma transação. Possibilita com que o usuário manipule dados de entrada para tomada de decisão baseado nos resultados providos.
 
 > Aplicação rodando no [Vercel](https://simule-bay.vercel.app/)
 
@@ -44,8 +44,14 @@ Explorando testes:
   
  > Componentes:
 
-  - Para os testes dos componentes, foram testados os que são reutilizados como Inputs, Button e Header;
-  - 
+  - Para os testes dos componentes, foram testados os que são reutilizados como Inputs, Button e Header.
+  
+ > e2e:
+
+  - Funcionalidade basica de preencher os inputs e submit para obter resultados;
+  - Mock do retorno da api para teste da rederização do card de resultados;
+  - Teste de retorno para card inicial;
+  - Teste para verificação se input inválido são acusado pelo validação.
 
 
 ## 🔗 Uteis

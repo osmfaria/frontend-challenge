@@ -43,7 +43,4 @@ Rodando testes e2e:
 
 ## 🔗 Uteis
 
-> [Figma guide](https://www.figma.com/file/gByBxI9GBHKUjXRtO2fFh2/28%2F10-%F0%9F%96%A5-%F0%9F%93%B1---Wine-Test---WEB-%26-APP?node-id=680%3A6449)
-
-
-> [API Rest](https://documenter.getpostman.com/view/10015622/UVJiiuHi#fe849253-c47a-492f-a860-08350296c570)
+> [API Rest](https://frontend-challenge-7bu3nxh76a-uc.a.run.app)

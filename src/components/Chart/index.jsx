@@ -29,7 +29,6 @@ const Chart = () => {
     setTimeout(() => {
       setDelayedData(chartData)
     }, 400)
-    console.log('montou')
   })
 
   return (

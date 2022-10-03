@@ -40,6 +40,13 @@ Rodando testes e2e:
 - Abrir outro terminal;
 - comando: "yarn run cypress run".
 
+Explorando testes:
+  
+  Componentes:
+
+  - Para os testes dos componentes, foram testados os que são reutilizados como Inputs, Button e Header;
+  - 
+
 
 ## 🔗 Uteis
 

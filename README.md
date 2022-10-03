@@ -8,8 +8,8 @@ Desafio Frontend, um web app para cálculo de antecipação de uma transação. 
 
 
 💭 Features principais:
-- :heavy_check_mark: Gráfico com diferenças liquidas em relação a data inicial
-- :heavy_check_mark: Lista de dias customizada para consulta
+:heavy_check_mark: Gráfico com diferenças liquidas em relação a data inicial
+:heavy_check_mark: Lista de dias customizada para consulta
 
 
 ## 📋 Instruções

@@ -32,13 +32,13 @@ Algumas das principais tecnologias utilizadas:
 
 Rodando testes de componentes:
 
-- comando: yarn run cypress run --component.
+- comando: "yarn run cypress run --component".
 
 Rodando testes e2e:
 
-- yarn start para que a aplicação esteja rodando no localhost;
+- "yarn start" para que a aplicação esteja rodando no localhost;
 - Abrir outro terminal;
-- comando: yarn run cypress run.
+- comando: "yarn run cypress run".
 
 
 ## 🔗 Uteis

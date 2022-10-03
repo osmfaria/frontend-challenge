@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# :heavy_dollar_sign: Desafio Wine Frontend Challenge - NextJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desafio Frontend da empresa Wine, com objetivo de implementar um e-commerce para venda de vinhos, feito em ReactJS, utilizando NextJS e Styled-Components.
 
-## Available Scripts
+> Aplicação rodando no [Vercel](https://wine-frontend-challenge-react-mottaluizantonio.vercel.app)
 
-In the project directory, you can run:
 
-### `yarn start`
+💭 Features principais:
+- [ ] Catálogo de produtos com paginação
+- [ ] Filtragem produtos por preço
+- [ ] Busca por nome do produto
+- [ ] Adicionar e remover produtos do carrinho
+- [ ] Local Storage para gerenciar o carrinho
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+💡 Updates:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+18 set 2022:
+- [ ] Testes e2e
 
-### `yarn test`
+## 📋 Instruções
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Como instalar esse projeto:
 
-### `yarn build`
+- Faça um clone deste repositório;
+- Na pasta raiz do projeto, rode o comando "yarn" no terminal para instalar os pacotes de dependencias;
+- Na pasta raiz do projeto, rode o comando "yarn dev" no terminal para rodar o projeto;
+- No seu navegador, abra o link indicado no terminal.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Algumas das principais tecnologias utilizadas:
 
-### `yarn eject`
+- Typescript;
+- NextJS;
+- Estilização com styled-components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧠 Pontos de Melhoria
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Alguns dos principais pontos que quero melhorar no projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Estudar e implementar o SWR. Vi que seria a maneira ideal para fazer a requisição da API e utilizar o cache do Next JS;
+- Com o item acima, fazer um Provider para os dados vindos da requisição, tornando de fácil acesso por toda a aplicação e evitando "prop drilling";
+- Ainda com o primeiro item, implementar o carregamento de mais produtos quando em mobile;
+- Refatorar alguns componentes em componentes menores;
+- Implementar o react-tostify, para que seja avisado quando um produto for inserido no carrinho;
+- Implementação de testes. Refatorar os testes e2e para quem os elementos sejam selecionados pelo atributo "data-cy";
+- Landing page;
+- Apertar "enter" para concluir a busca e fechar a barra da mesma;
+- Mudar a lógica dos botões "Anterior" e "Próxima" para que mude de segmento(3 em 3 páginas) e não de um em um, como já faz a numeração, para tornar a navegação mais ágil e fluida;
+- Na página do produto, feratorar o "ContainerRight", dividindo em componentes menores e com responsabilidade única;
+- Aprimorar a maneira como a responsividade trablha, quando o tamanho da página é alterado.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Sugestões e dicas são muito bem vindas! Obrigado! 🤓 [mottaluizantonio@gmail.com](mottaluizantonio@gmail.com)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔗 Uteis
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> [Figma guide](https://www.figma.com/file/gByBxI9GBHKUjXRtO2fFh2/28%2F10-%F0%9F%96%A5-%F0%9F%93%B1---Wine-Test---WEB-%26-APP?node-id=680%3A6449)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> [API Rest](https://documenter.getpostman.com/view/10015622/UVJiiuHi#fe849253-c47a-492f-a860-08350296c570)

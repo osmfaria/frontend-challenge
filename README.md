@@ -42,7 +42,7 @@ Rodando testes e2e:
 
 Explorando testes:
   
-  Componentes:
+ > Componentes:
 
   - Para os testes dos componentes, foram testados os que são reutilizados como Inputs, Button e Header;
   - 

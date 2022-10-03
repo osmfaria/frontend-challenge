@@ -10,11 +10,6 @@ Desafio Frontend, um web app para cálculo de a antecipação de uma transação
 - [ ] Lista de dias customizada para consulta
 
 
-💡 Updates:
-
-18 set 2022:
-- [ ] Testes e2e
-
 ## 📋 Instruções
 
 Como instalar esse projeto:

@@ -9,6 +9,7 @@ export const CalculateProvider = ({ children }) => {
   const [result, setResults] = useState(null)
   const [chartData, setChartData] = useState([])
   const [errorCode, setErrorCode] = useState(null)
+  
   const { setLoading } = useLoading()
 
   const getResults = (data) => {

@@ -17,8 +17,8 @@ Desafio Frontend, um web app para cálculo de antecipação de uma transação. 
 Como instalar esse projeto:
 
 - Faça um clone deste repositório;
-- Na pasta raiz do projeto, rode o comando "yarn" no terminal para instalar os pacotes de dependencias;
-- Na pasta raiz do projeto, rode o comando "yarn start" no terminal para rodar o projeto;
+- Na pasta raiz do projeto, rode o comando `yarn` no terminal para instalar os pacotes de dependencias;
+- Na pasta raiz do projeto, rode o comando `yarn start` no terminal para rodar o projeto;
 - No seu navegador, abra o link indicado no terminal.
 
 
@@ -34,13 +34,13 @@ Algumas das principais tecnologias utilizadas:
 
 Rodando testes de componentes:
 
-- comando: "yarn run cypress run --component".
+- `yarn run cypress run --component`
 
 Rodando testes e2e:
 
-- "yarn start" para que a aplicação esteja rodando no localhost;
+- `yarn start` para que a aplicação esteja rodando no localhost;
 - Abrir outro terminal;
-- comando: "yarn run cypress run".
+- `yarn run cypress run`
 
 Explorando testes:
   

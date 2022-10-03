@@ -1,4 +1,4 @@
-# :heavy_dollar_sign: Frontend Challenge
+# :moneybag: Frontend Challenge
 
 Desafio Frontend, um web app para cálculo de antecipação de uma transação. Possibilita com que o usuário manipule dados de entrada para tomada de decisão baseado nos resultados providos.
 

@@ -2,7 +2,6 @@ import { MainContainer, Container, Title } from './styles'
 import { useCalculate } from '../../providers/calculate'
 import chart from '../../assets/bar-chart.svg'
 import ResultCard from '../ResultCard'
-import { RiArrowGoBackLine } from 'react-icons/ri'
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi'
 import { IconContext } from 'react-icons/lib'
 import { useLoading } from '../../providers/loading'
@@ -11,6 +10,7 @@ import { motion } from 'framer-motion'
 import 'react-loading-skeleton/dist/skeleton.css'
 import { useReference } from '../../providers/reference'
 import { useDidUpdate } from 'rooks'
+import ReturnButton from '../ReturnButton'
 
 const ResultDashBoard = () => {
   const { result } = useCalculate()
@@ -45,13 +45,7 @@ const ResultDashBoard = () => {
             highlightColor='#ebebeb'
           >
             <IconContext.Provider value={{ color: '#F2C4CE', size: '1.3rem' }}>
-              <div className='icon-box' onClick={handleClick}>
-                {loading ? (
-                  <Skeleton circle height={25} width={25} />
-                ) : (
-                  <RiArrowGoBackLine className='icon-right' />
-                )}
-              </div>
+              <ReturnButton handleClick={handleClick} loading={loading}/>
               {!loading && (
                 <div className='icon-box__nextpage' onClick={handleClickRef}>
                   <HiOutlineChevronDoubleDown size={40} />

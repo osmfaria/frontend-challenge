@@ -1,12 +1,11 @@
 import { MainContainer, Container } from './styles'
 import 'react-loading-skeleton/dist/skeleton.css'
 import astronaut from '../../assets/astronaut.svg'
-import { RiArrowGoBackLine } from 'react-icons/ri'
-import { IconContext } from 'react-icons/lib'
 import { useCalculate } from '../../providers/calculate'
 import { useLoading } from '../../providers/loading'
 import Button from '../Button'
 import { motion } from 'framer-motion'
+import ReturnButton from '../ReturnButton'
 
 const OhNoCard = () => {
   const { setErrorCode, errorCode } = useCalculate()
@@ -28,11 +27,7 @@ const OhNoCard = () => {
           <h3 className='card-title'>Oh no!!</h3>
           <h1>{errorCode || 400}</h1>
           <img src={astronaut} alt='astronaut' className='astrounaut' />
-          <IconContext.Provider value={{ color: '#F2C4CE', size: '1.3rem' }}>
-            <div className='icon-box' onClick={handleClick}>
-              <RiArrowGoBackLine className='icon-right' />
-            </div>
-          </IconContext.Provider>
+          <ReturnButton handleClick={handleClick}/>
           <Button onClick={handleClick}>Voltar</Button>
         </Container>
       </motion.div>

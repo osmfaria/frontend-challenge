@@ -45,9 +45,11 @@ export const treatResults = (data) => {
 }
 
 export const getChartData = (data) => {
-    const firstKey = Object.keys(data)[0]
+  const firstKey = Object.keys(data)[0]
 
-    const baseValue = data[firstKey]/100
+  const baseValue = data[firstKey] / 100
 
-    return Object.keys(data).map((key) => {return {name: `${key}`, 'R$': data[key]/100 - baseValue}})
+  return Object.keys(data).map((key) => {
+    return { name: `${key}`, R$: (data[key] / 100 - baseValue).toFixed(2) }
+  })
 }

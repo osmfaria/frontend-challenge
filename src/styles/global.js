@@ -29,19 +29,24 @@ menu, nav, output, ruby, section {
 	--white: #E8F0FE;
 	--blue: #4CDBC4;
 	--purple: #A000C8;
-
 	--regular: 400;
-	---bold: 600;
+	--bold: 600;
+}
+html {
+	  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, var(--black)),
+    color-stop(100%, var(--grey))
+  );
+	background-attachment: fixed;
 }
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,var(--black)), color-stop(100%, var(--grey)));
-	width: 100%;
-	height:100%;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+header {
 	display: block;
 }
 button {

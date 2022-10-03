@@ -25,6 +25,7 @@ export const ResultItem = styled.div`
       margin-left: 6px;
     }
   }
+  
   p {
     margin-left: 10px;
   }

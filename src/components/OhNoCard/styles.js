@@ -24,23 +24,6 @@ export const Container = styled.div`
 
   flex-grow: 1;
 
-  .icon-box {
-    cursor: pointer;
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    border-radius: 50%;
-    padding: 2px;
-    width: 25px;
-    height: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    :hover {
-      background-color: var(--grey);
-    }
-  }
-
   h1 {
     font-family: 'Bungee Spice', sans-serif;
     margin: 0 auto 50px;

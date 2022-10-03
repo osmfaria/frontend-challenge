@@ -4,8 +4,8 @@ import GlobalStyle from './styles/global'
 function App() {
   return (
     <>
-      <Home />
       <GlobalStyle />
+      <Home />
     </>
   )
 }

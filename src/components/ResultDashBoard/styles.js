@@ -15,25 +15,8 @@ export const Container = styled.div`
   flex-direction: column;
   background-color: var(--black);
   box-sizing: border-box;
-
   z-index: 1000;
 
-  .icon-box {
-    cursor: pointer;
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    border-radius: 50%;
-    padding: 2px;
-    width: 25px;
-    height: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    :hover {
-      background-color: var(--grey);
-    }
-  }
   .icon-box__nextpage {
     position: absolute;
     right: 40%;

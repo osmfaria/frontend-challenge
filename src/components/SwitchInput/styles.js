@@ -11,7 +11,6 @@ export const Container = styled.div`
     font-size: 1rem;
     box-sizing: border-box;
     background: var(--white);
-    font-weight: 600;
 
     ::-webkit-outer-spin-button,
     ::-webkit-inner-spin-button {

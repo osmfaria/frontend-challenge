@@ -5,14 +5,14 @@ import { useLoading } from '../../providers/loading'
 import OhNoCard from '../../components/OhNoCard'
 import { useCalculate } from '../../providers/calculate'
 import Chart from '../../components/Chart'
-import { Container, MainContainer } from './styles'
+import { Container } from './styles'
 
 const Home = () => {
   const { showResults, showChart } = useLoading()
   const { errorCode } = useCalculate()
 
   return (
-    <MainContainer>
+    <>
       <Header />
       <Container>
         {errorCode ? (
@@ -26,7 +26,7 @@ const Home = () => {
           <Form />
         )}
       </Container>
-    </MainContainer>
+    </>
   )
 }
 

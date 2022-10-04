@@ -55,8 +55,8 @@ Explorando testes:
 
   - Funcionalidade basica de preencher os inputs e submit para obter resultados;
   - Mock do retorno da api para teste da rederização do card de resultados;
-  - Teste de retorno para card inicial;
-  - Teste para verificação se input inválido são acusado pelo validação.
+  - Teste de retorno da seção de resultados para o card inicial com o form;
+  - Teste para verificação se inputs inválidos são acusado pela validação do form.
 
 
 ## 🔗 Uteis

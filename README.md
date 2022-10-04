@@ -61,4 +61,4 @@ Explorando testes:
 
 ## 🔗 Uteis
 
-> [API Rest](https://frontend-challenge-7bu3nxh76a-uc.a.run.app)
+> [API](https://frontend-challenge-7bu3nxh76a-uc.a.run.app)

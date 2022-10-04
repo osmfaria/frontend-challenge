@@ -1,3 +1,5 @@
+![GitHub package.json version](https://img.shields.io/github/package-json/v/osmfaria/frontend-challenge)
+
 # :moneybag: Frontend Challenge
 
 Desafio Frontend, um web app para cálculo de antecipação de uma transação. Possibilita com que o usuário manipule dados de entrada para tomada de decisão baseado nos resultados providos.

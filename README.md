@@ -1,4 +1,4 @@
-![GitHub package.json version](https://img.shields.io/github/package-json/v/osmfaria/frontend-challenge)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/osmfaria/frontend-challenge)](https://img.shields.io/github/package-json/v/osmfaria/frontend-challenge)
  
 # :moneybag: Frontend Challenge
 
